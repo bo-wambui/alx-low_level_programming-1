@@ -22,8 +22,8 @@ Write a script that runs a C file through the preprocessor and save the result i
 The C file name will be saved in the variable $CFILE<br>
 The output should be saved in the file c<br>
 
-#!/bin/bash<br>
-gcc -E $CFILE -o c
+`#!/bin/bash<br>
+gcc -E $CFILE -o c`
 
 <li>[1. Compiler<br>
 
@@ -33,8 +33,8 @@ The C file name will be saved in the variable $CFILE<br>
 The output file should be named the same as the C file, but with the extension .o instead of .c.<br>
 Example: if the C file is main.c, the output file should be main.o<br>
 
-#!/bin/bash<br>
-gcc $CFILE -c<br>
+`#!/bin/bash<br>
+gcc $CFILE -c<br>`
 
 <li>[2. Assembler
 
@@ -67,10 +67,10 @@ Write a C program that prints exactly "Programming is like building a multilingu
 Use the function puts
 You are not allowed to use printf
 Your program should end with the value 0
-`
-`#include <stdio.h>
 
-/**
+#include <stdio.h>
+
+`/**
  * main - Entry point
  *
  * Return: Always 0 (Success)

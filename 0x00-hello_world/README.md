@@ -1,6 +1,6 @@
 Resources: <br>
 
-https://en.wikipedia.org/wiki/Dennis_Ritchie<br>
+[Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)<br>
 https://www.youtube.com/watch?v=de2Hsvxaf8M&ab_channel=Computerphile<br>
 https://www.youtube.com/watch?v=smGalmxPVYc&ab_channel=ChrisHawkes<br>
 https://www.youtube.com/watch?v=rk2fK2IIiiQ&ab_channel=JonathanEngelsma<br>
@@ -11,6 +11,29 @@ http://harmful.cat-v.org/software/c++/linus<br>
 https://twitter.com/unix_byte/status/1024147947393495040?s=21<br>
 
 <h2>Quiz</h2>
+
+<li>Question #0 <br>
+In which category belongs the C programming language?<br>
+
+Compiled language
+<li>Question #1<br>
+What is the common extension for a C source file?<br>
+`.c`
+<li>Question #1<br>
+What is the common extension for a C source file?<br>
+`.h`
+<li>Question #3<br>
+Which command can be used to compile a C source file?<br>
+`gcc`
+<li>Question #4<br>
+Which of the following are both valid comment syntaxes in ANSI C, and Betty-compliant?<br>
+`/* Comment */`
+`/*
+ * Comment
+ */`
+<li>Question #5<br>
+What are the different steps to form an executable file from C source code<br>
+Preprocessing, compilation, assembly, and linking
 
 <h2>Scripts</h2>
 

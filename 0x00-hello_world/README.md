@@ -54,8 +54,10 @@ Write a script that compiles a C file and creates an executable named cisfun.
 
 The C file name will be saved in the variable $CFILE
 
-#!/bin/bash
-gcc $CFILE -o cisfun
+
+	
+	`#!/bin/bash
+	gcc $CFILE -o cisfun`
 
 
 <li>[4. Hello, puts
@@ -65,8 +67,8 @@ Write a C program that prints exactly "Programming is like building a multilingu
 Use the function puts
 You are not allowed to use printf
 Your program should end with the value 0
-
-#include <stdio.h>
+`
+`#include <stdio.h>
 
 /**
  * main - Entry point
@@ -78,7 +80,7 @@ int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-}
+}`
 
 <li>[5. Hello, printf
 
@@ -89,7 +91,7 @@ You are not allowed to use the function puts
 Your program should return 0
 Your program should compile without warning when using the -Wall gcc option
 
-#include <stdio.h>
+`#include <stdio.h>
 
 /**
  * main - Entry point
@@ -100,7 +102,7 @@ int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
-}
+}`
 
 <li>[6. Size is not grandeur, and territory does not make a nation
 
@@ -110,7 +112,7 @@ You should produce the exact same output as in the example
 Warnings are allowed
 Your program should return 0
 
-#include <stdio.h>
+`#include <stdio.h>
 
 /**
  * main - Entry point
@@ -133,7 +135,7 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
 
 	return (0);
-}
+}`
 
 
 <li>[7. Intel
@@ -144,8 +146,8 @@ The C file name will be saved in the variable $CFILE.
 The output file should be named the same as the C file, but with the extension .s instead of .c.
 Example: if the C file is main.c, the output file should be main.s
 
-#!/bin/bash
-gcc -S -masm=intel $CFILE
+`#!/bin/bash
+gcc -S -masm=intel $CFILE`
 
 
 <li>[8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
@@ -156,7 +158,7 @@ You are not allowed to use any functions listed in the NAME section of the man (
 Your program should return 1
 Your program should compile without any warnings when using the -Wall gcc option
 
-#include <stdio.h>
+`#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -171,6 +173,6 @@ int main(void)
 {
 	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
-}
+}`
 
 </ol>

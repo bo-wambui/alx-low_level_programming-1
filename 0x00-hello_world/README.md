@@ -45,7 +45,7 @@ Write a script that runs a C file through the preprocessor and save the result i
 The C file name will be saved in the variable $CFILE<br>
 The output should be saved in the file c<br>
 
-`#!/bin/bash<br>
+	`#!/bin/bash
 gcc -E $CFILE -o c`
 
 <li>[1. Compiler<br>
@@ -68,7 +68,7 @@ The C file name will be saved in the variable $CFILE
 The output file should be named the same as the C file, but with the extension .s instead of .c.
 Example: if the C file is main.c, the output file should be main.s
 
-	`#!/bin/bash      <br>
+	`#!/bin/bash     
 	
 	gcc -S $CFILE`
 

@@ -56,8 +56,8 @@ The C file name will be saved in the variable $CFILE<br>
 The output file should be named the same as the C file, but with the extension .o instead of .c.<br>
 Example: if the C file is main.c, the output file should be main.o<br>
 
-`#!/bin/bash<br>
-gcc $CFILE -c<br>`
+`#!/bin/bash    <br>
+gcc $CFILE -c`
 
 <li>[2. Assembler
 
@@ -67,7 +67,7 @@ The C file name will be saved in the variable $CFILE
 The output file should be named the same as the C file, but with the extension .s instead of .c.
 Example: if the C file is main.c, the output file should be main.s
 
-	`#!/bin/bash
+	`#!/bin/bash      <br>
 	gcc -S $CFILE`
 
 
@@ -75,11 +75,11 @@ Example: if the C file is main.c, the output file should be main.s
 
 Write a script that compiles a C file and creates an executable named cisfun.
 
-The C file name will be saved in the variable $CFILE
+The C file name will be saved in the variable $CFILE <br>
 
 
 	
-	`#!/bin/bash
+	`#!/bin/bash              <br>
 	gcc $CFILE -o cisfun`
 
 

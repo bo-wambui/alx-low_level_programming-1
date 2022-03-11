@@ -466,10 +466,176 @@ int main(void)
 
 ```
 
-<li>
-<li>
-<li>
-<li>
+<li>[10. Inventing is a combination of brains and materials. The more brains you use, the less material you need<br>
+
+Write a program that prints all possible different combinations of two digits.<br>
+
+Numbers must be separated by ,, followed by a space<br>
+The two digits must be different<br>
+01 and 10 are considered the same combination of the two digits 0 and 1<br>
+Print only the smallest combination of two digits<br>
+Numbers should be printed in ascending order, with two digits<br>
+You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)<br>
+You can only use putchar five times maximum in your code<br>
+You are not allowed to use any variable of type char<br>
+All your code should be in the main function<br>
+
+```
+#include <stdio.h>
+
+/**
+  * main - Prints combination of numbers
+  *
+  * Return: Always (Success)
+  */
+int main(void)
+{
+	int c, i;
+
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
+}
+
+```
+
+<li>11. The success combination in business is: Do what you do better... and: do more of what you do...<br>
+
+Write a program that prints all possible different combinations of three digits.<br>
+
+Numbers must be separated by ,, followed by a space<br>
+The three digits must be different<br>
+012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2<br>
+Print only the smallest combination of three digits<br>
+Numbers should be printed in ascending order, with three digits<br>
+You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)<br>
+You can only use putchar six times maximum in your code<br>
+You are not allowed to use any variable of type char<br>
+All your code should be in the main function<br>
+
+```
+#include <stdio.h>
+
+/**
+  * main - Prints 3 combination of numbers
+  *
+  * Return: Always (Success)
+  */
+int main(void)
+{
+	int c, i, k;
+
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			for (k = '0'; k <= '9'; k++)
+			{
+				if (c < i && i < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(k);
+
+					if (c != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
+}
+
+```
+
+<li>12. Software is eating the World<br>
+
+Write a program that prints all possible combinations of two two-digit numbers.<br>
+
+The numbers should range from 0 to 99<br>
+The two numbers should be separated by a space<br>
+All numbers should be printed with two digits. 1 should be printed as 01<br>
+The combination of numbers must be separated by comma, followed by a space<br>
+The combinations of numbers should be printed in ascending order<br>
+00 01 and 01 00 are considered as the same combination of the numbers 0 and 1<br>
+You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)<br>
+You can only use putchar eight times maximum in your code<br>
+You are not allowed to use any variable of type char<br>
+All your code should be in the main function<br>
+
+```
+#include <stdio.h>
+
+/**
+  * main - Prints 3 combination of numbers
+  *
+  * Return: Always (Success)
+  */
+int main(void)
+{
+	int c, i, k, j;
+
+	for (c = 48; c <= 57; c++)
+	{
+		for (i = 48; i <= 57; i++)
+		{
+			for (k = 48; k <= 57; k++)
+			{
+				for (j = 48; j <= 57; j++)
+				{
+					if (((k + j) > (c + i) &&  k >= c) || c < k)
+					{
+						putchar(c);
+						putchar(i);
+						putchar(' ');
+						putchar(k);
+						putchar(j);
+
+					if (c + i + k + j == 227 && c == 57)
+					{
+					break;
+					}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
+					}
+				}
+			}
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
+}
+
+```
 
 
 </ol>

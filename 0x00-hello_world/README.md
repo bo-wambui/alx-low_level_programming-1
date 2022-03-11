@@ -1,14 +1,14 @@
 Resources: <br>
 
 [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)<br>
-https://www.youtube.com/watch?v=de2Hsvxaf8M&ab_channel=Computerphile<br>
-https://www.youtube.com/watch?v=smGalmxPVYc&ab_channel=ChrisHawkes<br>
-https://www.youtube.com/watch?v=rk2fK2IIiiQ&ab_channel=JonathanEngelsma<br>
-https://www.youtube.com/watch?v=FwpP_MsZWnU&ab_channel=JonathanEngelsma<br>
-https://www.youtube.com/watch?v=VDslRumKvRA&ab_channel=HowTo<br>
-https://github.com/holbertonschool/Betty/wiki<br>
-http://harmful.cat-v.org/software/c++/linus<br>
-https://twitter.com/unix_byte/status/1024147947393495040?s=21<br>
+["C" Programming Language: Brian Kernighan - Computerphile](https://www.youtube.com/watch?v=de2Hsvxaf8M&ab_channel=Computerphile)<br>
+[Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc&ab_channel=ChrisHawkes)<br>
+[Learning to Program in C](https://www.youtube.com/watch?v=rk2fK2IIiiQ&ab_channel=JonathanEngelsma) Part 1 by Jonathan Engelsma<br>
+[Learning to Program in C](https://www.youtube.com/watch?v=FwpP_MsZWnU&ab_channel=JonathanEngelsma)  Part 2 by Jonathan Engelsma<br>
+[Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA&ab_channel=HowTo)<br>
+[Betty coding style](https://github.com/holbertonschool/Betty/wiki)<br>
+[#!](https://twitter.com/unix_byte/status/1024147947393495040?s=21)<br> source twitter
+[Extra Resources C++](http://harmful.cat-v.org/software/c++/linus)<br>
 
 <h2>Quiz</h2>
 

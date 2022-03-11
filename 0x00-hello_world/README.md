@@ -158,7 +158,7 @@ You are not allowed to use any functions listed in the NAME section of the man (
 Your program should return 1
 Your program should compile without any warnings when using the -Wall gcc option
 
-`#include <stdio.h>
+` #include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -173,6 +173,6 @@ int main(void)
 {
 	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
-}`
+} `
 
 </ol>

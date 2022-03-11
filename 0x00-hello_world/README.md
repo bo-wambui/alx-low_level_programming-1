@@ -7,7 +7,7 @@ Resources: <br>
 [Learning to Program in C](https://www.youtube.com/watch?v=FwpP_MsZWnU&ab_channel=JonathanEngelsma)  Part 2 by Jonathan Engelsma<br>
 [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA&ab_channel=HowTo)<br>
 [Betty coding style](https://github.com/holbertonschool/Betty/wiki)<br>
-[#!](https://twitter.com/unix_byte/status/1024147947393495040?s=21)<br> source twitter
+[#!](https://twitter.com/unix_byte/status/1024147947393495040?s=21) source twitter<br> 
 [Extra Resources C++](http://harmful.cat-v.org/software/c++/linus)<br>
 
 <h2>Quiz</h2>

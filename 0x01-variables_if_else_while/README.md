@@ -37,10 +37,12 @@ if (a > b)
 }
 ```
 <br>
+
 ```
 if (a > b)
   return (a);
 ```
+
 <br>
 <li>Question #4<br>
 Which of the following are valid for statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
@@ -50,12 +52,17 @@ for (a = 0; a < b; a++)
     printf("%d\n", a);
 }
 ```
+<br>		 
+
+	
 ```
 for (a = 0; a < b; a++)
     printf("%d\n", a);
 ```
+		 
+<br>
+	
 ```
-
 a = 0;
 for (; a < b;)
 {
@@ -75,6 +82,7 @@ while (a < b)
     a++;
 }
 ```
+<br>
 
 ```
 a = 0;
@@ -83,7 +91,7 @@ do {
     a++;
 } while (a < b);
 ```
-
+<br>
 ```
 a = 0;
 while (a < b)

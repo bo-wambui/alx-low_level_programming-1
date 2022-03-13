@@ -45,12 +45,15 @@ if (a > b)
 
 <br>
 <li>Question #4<br>
-Which of the following are valid for statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
+Which of the following are valid for statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int) <br>
+
+
 ```
 for (a = 0; a < b; a++)
 {
     printf("%d\n", a);
 }
+		  
 ```
 <br>		 
 
@@ -73,7 +76,8 @@ for (; a < b;)
 
 
 <li>Question #5<br>
-Which of the following are valid while or do/while statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
+Which of the following are valid while or do/while statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)<br>
+	
 ```
 a = 0;
 while (a < b)

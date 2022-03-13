@@ -18,27 +18,30 @@ Video [while loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI&t=2s&ab_channel=S
 <ol>
 
 <li> Question #0<br>
-What is the size of the unsigned int data type?
-`4 byte`
+What is the size of the unsigned int data type?<br>
+<em>4 byte</em>
 <li>Question #1<br>
-What is the size of the char data type?
-`1 byte`
+What is the size of the char data type?<br>
+<em>1 byte</em> <br>
 <li>Question #2<br>
-What is the size of the float data type?
-`4 bytes`
+What is the size of the float data type?<br>
+<em>4 bytes</em>
 <li>Question #3<br>
-Which of the following are valid if statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
+Which of the following are valid if statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)<br>
+
+
 ```
 if (a > b)
 {
   return (a);
 }
 ```
+<br>
 ```
 if (a > b)
   return (a);
 ```
-
+<br>
 <li>Question #4<br>
 Which of the following are valid for statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
 ```

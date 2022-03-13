@@ -96,11 +96,13 @@ do {
 } while (a < b);
 ```
 <br>
+	
 ```
 a = 0;
 while (a < b)
     printf("%d\n", a++);
 ```
+<br>
 </ol>
 
 <h2>Tasks</h2>

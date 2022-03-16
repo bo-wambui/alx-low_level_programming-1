@@ -5,12 +5,14 @@
 [C video tutorial](https://www.youtube.com/watch?v=qMlnFwYdqIw&ab_channel=JonathanEngelsma)<br>
 [Function Prototype](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)<br>
 [Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)<br>
-[ASCII](https://whatis.techtarget.com/definition/ASCII-American-Standard-Code-for-Information-Interchange#:~:text=ASCII%20(American%20Standard%20Code%20for%20Information%20Interchange)%20is%20the%20most,additional%20characters%20and%20control%20codes.)
+[ASCII](https://whatis.techtarget.com/definition/ASCII-American-Standard-Code-for-Information-Interchange#:~:text=ASCII%20(American%20Standard%20Code%20for%20Information%20Interchange)%20is%20the%20most,additional%20characters%20and%20control%20codes.)<br>
+[Fibonacci](https://www.javatpoint.com/fibonacci-series-in-c)<br>
+[Natural numbers sum](https://www.w3resource.com/c-programming-exercises/for-loop/c-for-loop-exercises-3.php)<br>
 
 <h2> Tasks </h2>
 
 <ol>
-<li>0. _putchar
+<li>[0. _putchar
 
 Write a program that prints _putchar, followed by a new line.<br>
 
@@ -50,7 +52,7 @@ int main(void)
 }
 ```
 
-<li>1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+<li>[1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
 Write a function that prints the alphabet, in lowercase, followed by a new line.<br>
 
@@ -99,7 +101,7 @@ void print_alphabet(void)
 ```
 
 You can only use _putchar twice in your code<br><br>
-<li>2. 10 x alphabet
+<li>[2. 10 x alphabet
 
 Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.<br>
 
@@ -164,7 +166,7 @@ void print_alphabet_x10(void)
 }
 ```
 
-<li>3. islower
+<li>[3. islower
 
 Write a function that checks for lowercase character.<br>
 
@@ -221,7 +223,7 @@ int _islower(int c)
 }
 ```
 
-<li>4. isalpha
+<li>[4. isalpha
 
 Write a function that checks for alphabetic character.<br>
 
@@ -276,7 +278,7 @@ int _isalpha(int c)
 }
 ```
 
-<li>5. Sign
+<li>[5. Sign
 
 Write a function that prints the sign of a number.<br>
 
@@ -359,7 +361,7 @@ int print_sign(int n)
 }
 ```
 
-<li>6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+<li>[6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
 
 Write a function that computes the absolute value of an integer.<br>
 
@@ -416,7 +418,7 @@ int _abs(int n)
 }
 ```
 
-<li>7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+<li>[7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
 Write a function that prints the last digit of a number.<br>
 
@@ -471,7 +473,7 @@ int print_last_digit(int n)
 }
 ```
 
-<li>8. I'm federal agent Jack Bauer, and today is the longest day of my life
+<li>[8. I'm federal agent Jack Bauer, and today is the longest day of my life
 
 Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.<br>
 
@@ -547,7 +549,7 @@ void jack_bauer(void)
 }
 ```
 
-<li>9. Learn your times table
+<li>[9. Learn your times table
 
 Write a function that prints the 9 times table, starting with 0.<br>
 
@@ -634,7 +636,7 @@ void times_table(void)
 	}
 }
 ```
-<li>10. a + b
+<li>[10. a + b
 
 Write a function that adds two integers and returns the result.<br>
 
@@ -682,7 +684,7 @@ return (a + b);
 }
 ```
 
-<li>11. 98 Battery Street, the OG
+<li>[11. 98 Battery Street, the OG
 
 Write a function that prints all natural numbers from n to 98, followed by a new line.<br>
 
@@ -755,7 +757,7 @@ void print_to_98(int n)
 }
 ```
 
-<li>12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
+<li>[12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
 
 Write a function that prints the n times table, starting with 0.<br>
 
@@ -847,7 +849,7 @@ julien@ubuntu:~/0x02$
 
 ```
 
-<li>13. Nature made the natural numbers; All else is the work of women
+<li>[13. Nature made the natural numbers; All else is the work of women
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that computes and prints the <br>sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.<br>
 
@@ -883,7 +885,7 @@ int main(void)
 }
 ```
 
-<li>14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A<br>
+<li>[14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A<br>
 
 Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.<br>
 
@@ -925,7 +927,7 @@ int main(void)
 ```
 
 
-<li>15. Even Liber Abbaci
+<li>[15. Even Liber Abbaci
 
 <p>Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line.</p><br>
 

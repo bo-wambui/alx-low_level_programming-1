@@ -1,4 +1,4 @@
-<h1>Resources<h1>
+<h1>Resources</h1>
 [Debugging](https://en.wikipedia.org/wiki/Debugging)<br>
 [Rubber duck debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/)<br>
 

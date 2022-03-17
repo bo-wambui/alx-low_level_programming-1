@@ -1,6 +1,6 @@
 <h1>Resources</h1>
 [Debugging](https://en.wikipedia.org/wiki/Debugging)<br>
-[Rubber duck debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/)<br>
+[Rubber duck debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/)<br><br>
 
 <p>
 Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as gdb or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.
@@ -8,7 +8,7 @@ Debugging is the process of finding and fixing errors in software that prevents 
 
 <h2>Quiz</h2>
 
-<h3>Question 0<h3>
+<h4>Question 0</h4>
 Look at the following code<br>
 
 ```
@@ -60,7 +60,7 @@ In the main.c file, on what line is the first error that the compiler returns?<b
 `
 <br>
 
-<h3>Question 1</h3>
+<h4>Question 1</h4>
 The following code gives this incorrect output.  Which of the following statements about what is causing the error is true?<br>
 
 ```
@@ -105,7 +105,7 @@ carrie@ubuntu:/debugging$ ./a.out
 
 <br>
 
-<h3>Question 2</h3>
+<h4>Question 2</h4>
 The following code gives this output. What is the error?<br>
 
 ```
@@ -154,7 +154,7 @@ carrie@ubuntu:/debugging$
 <li> We want to assign j a new value, not compare it, so it should be j = j - 1 instead of j == j - 1
 <br>
 
-<h3>Question 3</h3>
+<h4>Question 3</h4>
 This code doesn't work as intended.<br>
 
 ```
@@ -233,7 +233,7 @@ int main(void)
 
 <h2>Tasks</h2>
 
-<h3>0. Multiple mains</h3>
+<h4>0. Multiple mains</h4>
 In most projects, we often give you only one main file to test with. For example, this main file is a test for a <em>postitive_or_negative()</em> function similar to the one you worked with in [an earlier C project]:(https://github.com/JudahSan/alx-low_level_programming/blob/main/0x01-variables_if_else_while/0-positive_or_negative.c)
 <br>
 
@@ -314,7 +314,7 @@ return (0);
 ```
 <br>
 
-<h3>1. Like, comment, subscribe/h3>
+<h4>1. Like, comment, subscribe/h4>
 <p>
 Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 
@@ -393,7 +393,7 @@ int main(void)
 ```
 <br>
 
-<h3>2. 0 > 972?</h3>
+<h4>2. 0 > 972?</h4>
 <p>
 This program prints the largest of three integers.<br>
 </p>
@@ -506,7 +506,7 @@ int largest;
 }
 ```
 
-<h3>3. Leap year</h3>
+<h4>3. Leap year</h4>
 <p>
 This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
 </p><br>

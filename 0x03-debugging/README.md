@@ -234,7 +234,7 @@ int main(void)
 <h2>Tasks</h2>
 
 <h4>0. Multiple mains</h4>
-In most projects, we often give you only one main file to test with. For example, this main file is a test for a <em>postitive_or_negative()</em> function similar to the one you worked with in [an earlier C project](https://github.com/JudahSan/alx-low_level_programming/blob/main/0x01-variables_if_else_while/0-positive_or_negative.c)
+In most projects, we often give you only one main file to test with. For example, this main file is a test for a <em>postitive_or_negative()</em> function similar to the one you worked with in [an earlier C project](https://github.com/JudahSan/alx-low_level_programming/blob/main/0x01-variables_if_else_while/README.md)
 <br>
 
 ```

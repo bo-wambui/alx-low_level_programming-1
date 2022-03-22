@@ -66,12 +66,14 @@ c = 'H';
 
 <p>When we assign the value 'H' to c, then 'H' is stored at c‘s address.</p>
 <br>
+
 ![char c declaration](char_c_H.png)
 <br>
 <p>
 But you know that a byte can only store numbers. So actually, the byte will not hold exactly the letter 'H', but its ascii code, which is 72 (man ascii). So it really looks like this in memory:
 </p>
 <br><br>
+
 ![char c declaration](char_c_72.png)
 <br><br>
 <p>Since integers are stored within four bytes of memory, the same example with an int variable would look like this:
@@ -85,6 +87,7 @@ n = 98;
 ```
 
 <br><br>
+
 ![char c declaration](char_c_98.png)
 <br><br>
 
@@ -176,6 +179,7 @@ ubuntu@ip-172-31-63-244:~/julien$ gcc -Wall -Werror -pedantic -Wextra -std=gnu89
 Size of pointer: 8
 ```
 <br><br>
+
 ![char c declaration](p.png)
 <br>
 <p>To get the address where a pointer is stored, you can use the same technique as for any other variable: use the & operator.
@@ -218,7 +222,7 @@ p = &n;
 <p>Because &n gives us the address of the variable n, the variable p now holds the address of the variable n: p points to n. If the variable n’s address were 26, then the value of our pointer p would be 26.</p><br><br>
 
 ![char c declaration](p_n.png)
-![char c declaration](p_n(1).png)
+![char c declaration](p_m.png)
 
 <br><br>
 

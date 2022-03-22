@@ -317,6 +317,7 @@ This is what it looks like after this statement in memory:
 <br>
 
 ![char c declaration](p_n_402.png)
+
 <br>
 This works exactly the same for other types:
 <br>
@@ -416,11 +417,13 @@ In this example, when we call the modif_my_param function, the value of n (98) i
 <br>
 
 ![char c declaration](n_m.png)
+
 <br>
 After m = 402; the memory looks like this:
 <br>
 
 ![char c declaration](nm402.png)
+
 <br>
 <p>
 When we leave the function modif_my_param the variable m is destroyed and does not exist anymore. Its value though, stays in memory until this space is used by the program for another variable or something else.
@@ -428,6 +431,7 @@ When we leave the function modif_my_param the variable m is destroyed and does n
 <br>
 
 ![char c declaration](nomorem.png)
+
 <br>
 <p>
 This rule applies to any type of variable. But since the values of pointers are addresses, it is possible to modify a variable from outside the function it is declared, using a pointer.
@@ -486,24 +490,28 @@ In this example, here is what happens: Before the call to the function modif_my_
 <br>
 
 ![char c declaration](before_call.png)
+
 <br>
 
 When we call the function modif_my_param, the value of p is stored in a new variable called m:
 <br>
 
 ![char c declaration](call.png)
+
 <br>
 <p>Since m stores the same memory address, it points to the same address, and so both p and m now point to n. Therefore, when we execute the line *m = 402; we modify the value of n and n now holds 402.
 </p>
 <br>
 
 ![char c declaration](n402.png)
+
 <br>
 
 When we leave the function modif_my_param, the variable m is destroyed, but n’s value is still 402:
 <br>
 
 ![char c declaration](exitfuction.png)
+
 <br>
 <p>
 Using the same format, try to represent in memory what is happening at every step of the following program. When done, add some printfs and compile to verify your hypothesis.
@@ -1010,6 +1018,7 @@ ubuntu@ip-172-31-63-244:~/julien$
 </p>
 
 ![char c declaration](str.png)
+
 <br>
 <p>That would be one way to store strings, but this is not very efficient. If we wanted to store a very long text, imagine how much time would we spend storing each character of the string in our array!
 Fortunately, we can also use text in double quotes ".

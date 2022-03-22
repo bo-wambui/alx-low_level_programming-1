@@ -222,6 +222,8 @@ p = &n;
 <p>Because &n gives us the address of the variable n, the variable p now holds the address of the variable n: p points to n. If the variable n’s address were 26, then the value of our pointer p would be 26.</p><br><br>
 
 ![char c declaration](p_n.png)
+<br>
+
 ![char c declaration](p_m.png)
 
 <br><br>
